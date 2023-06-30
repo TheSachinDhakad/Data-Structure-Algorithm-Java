@@ -4,7 +4,7 @@ public class TypeOfNumberArray {
     public static void main(String[] args) {
 //        Take m and n input from the user and m * n integer inputs from user and print the following:
 //        number of positive numbers
-//        number of negative numbers
+//        number of negative numbers b
 //        number of odd numbers
 //        number of even numbers
 //        number of 0.

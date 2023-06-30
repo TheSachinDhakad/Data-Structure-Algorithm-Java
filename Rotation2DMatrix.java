@@ -10,10 +10,13 @@ public class Rotation2DMatrix {
                 int temp = arr[i][j];
                 arr[i][j] = arr[j][i];
                 arr[j][i] = temp;
+//                System.out.println(arr[i][j]);
+//                System.out.println(arr[j][i]);
 
             }
 
         }
+
         for (int i = 0; i < m; i++) {
 
 
@@ -33,7 +36,7 @@ public class Rotation2DMatrix {
                 {1,2,3,4},
                 {5,6,7,8},
                 {9,10,11,12},
-                {13,14,15,16}
+                {13,14,15,16},
         };
 
         rotationMatrix(arr);
