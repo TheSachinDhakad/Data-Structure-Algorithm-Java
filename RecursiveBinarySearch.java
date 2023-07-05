@@ -1,5 +1,4 @@
 
-// Binary Search implementation using recursion
 import java.util.*;
 
 public class RecursiveBinarySearch {
