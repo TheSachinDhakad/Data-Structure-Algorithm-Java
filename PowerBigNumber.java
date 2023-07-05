@@ -1,10 +1,10 @@
-import javax.security.sasl.SaslClient;
+
 import java.math.BigInteger;
 import java.util.Scanner;
 
 public class PowerBigNumber {
     public static BigInteger bigPower(BigInteger a , int b){
-        BigInteger result , finalResult ;
+        BigInteger result , finalResult;
         if(b==1){
             return a;
         }
