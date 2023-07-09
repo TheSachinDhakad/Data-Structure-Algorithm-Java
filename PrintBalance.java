@@ -1,13 +1,13 @@
 public class PrintBalance {
     public static void printBal(int n , int oc , int cc , String ans){
-        if(n==oc && n==cc){
+        if(oc==n && cc==n){
             System.out.println(ans);
             return;
         }
         if(oc<n){
             printBal(n , oc+1 , cc , ans + '(');
         }
-        else {
+        if(oc>cc) {
             printBal(n , oc , cc+1 , ans+')');
         }
     }
