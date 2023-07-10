@@ -5,6 +5,7 @@ public class PrintPath {
         }
         if(cur==des){
             System.out.println(path);
+
             return;
         }
         printPath(cur+1, des , path+1);
