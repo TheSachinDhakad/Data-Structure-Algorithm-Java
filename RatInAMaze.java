@@ -1,4 +1,3 @@
-
 public class RatInAMaze {
     public static void printSolution (int [][] output , int n){
         for (int i = 0; i < n; i++) {
